@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="snedronningen.html">
+    <dc:title xml:lang="da">Snedronningen</dc:title>
+    <dcterms:alternative xml:lang="it">La regina delle nevi</dcterms:alternative>
+    <dc:creator>Andersen, H. C. (Hans Christian), 1805-1875</dc:creator>
+    <dcterms:creator rdf:resource="https://viaf.org/viaf/4925902"/>
+    <dcterms:creator rdf:resource="https://www.wikidata.org/wiki/Q5673"/>
+    <dc:date>1844-12-21</dc:date>
+    <dcterms:issued>1844-12-21</dcterms:issued>
+    <dc:language>da</dc:language>
+    <dc:type>Text</dc:type>
+    <dc:format>text/xml</dc:format>
+    <dc:subject>Fiabe danesi</dc:subject>
+    <dc:subject>Viaggio</dc:subject>
+    <dcterms:subject rdf:resource="https://www.wikidata.org/wiki/Q699"/>
+    <dcterms:subject>DDC 839.81</dcterms:subject>
+    <dc:description xml:lang="it">Fiaba d'autore in sette storie: Gerda attraversa un paesaggio fantastico del Nord per ritrovare Kai, rapito dalla Regina delle nevi.</dc:description>
+    <dc:coverage>Danimarca</dc:coverage>
+    <dcterms:spatial rdf:resource="https://www.geonames.org/2623032"/>
+    <dcterms:spatial rdf:resource="https://www.wikidata.org/wiki/Q35"/>
+    <dcterms:isPartOf>Nye Eventyr. Første Bind. Anden Samling</dcterms:isPartOf>
+    <dc:relation>Tipologia di viaggio · asse geografico: fantastico</dc:relation>
+    <dc:relation>Tipologia di viaggio · asse funzionale: ricerca; prova</dc:relation>
+    <dc:relation>Tipologia di viaggio · asse tematico: amicizia-solidarieta; perdita-separazione; trasformazione</dc:relation>
+    <dcterms:references rdf:resource="https://en.wikipedia.org/wiki/The_Snow_Queen"/>
+    <dc:rights>Pubblico dominio (autore morto nel 1875)</dc:rights>
+    <dc:identifier>snedronningen.html</dc:identifier>
+  </rdf:Description>
+</rdf:RDF>

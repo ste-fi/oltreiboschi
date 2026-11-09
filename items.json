@@ -1,0 +1,86 @@
+{
+  "paesi": [
+    {"codice": "DK", "nome_it": "Danimarca", "lat": 55.6761, "lng": 12.5683, "geonames": "2623032", "wikidata": "Q35"},
+    {"codice": "NO", "nome_it": "Norvegia", "lat": 59.9139, "lng": 10.7522, "geonames": "3144096", "wikidata": "Q20"},
+    {"codice": "SE", "nome_it": "Svezia", "lat": 59.3293, "lng": 18.0686, "geonames": "2661886", "wikidata": "Q34"},
+    {"codice": "FI", "nome_it": "Finlandia", "lat": 60.1699, "lng": 24.9384, "geonames": "660013", "wikidata": "Q33"},
+    {"codice": "IS", "nome_it": "Islanda", "lat": 64.1466, "lng": -21.9426, "geonames": "2629691", "wikidata": "Q189"}
+  ],
+  "autori": [
+    {"id": "andersen", "cognome": "Andersen", "nome": "Hans Christian Andersen", "nascita": 1805, "morte": 1875, "viaf": "4925902", "wikidata": "Q5673"},
+    {"id": "topelius", "cognome": "Topelius", "nome": "Zachris Topelius", "nascita": 1818, "morte": 1898, "viaf": "90638311", "wikidata": "Q139549"},
+    {"id": "asbjornsen", "cognome": "Asbjørnsen", "nome": "Peter Christen Asbjørnsen", "nascita": 1812, "morte": 1885, "viaf": "116587918", "wikidata": "Q355485"},
+    {"id": "moe", "cognome": "Moe", "nome": "Jørgen Engebretsen Moe", "nascita": 1813, "morte": 1882, "viaf": "36968998", "wikidata": "Q470002"},
+    {"id": "zwilgmeyer", "cognome": "Zwilgmeyer", "nome": "Dikken Zwilgmeyer", "nascita": 1853, "morte": 1913, "viaf": "13235352", "wikidata": "Q1783000"},
+    {"id": "arnason", "cognome": "Árnason", "nome": "Jón Árnason", "nascita": 1819, "morte": 1888, "viaf": "44308146", "wikidata": "Q975791"},
+    {"id": "grimsson", "cognome": "Grímsson", "nome": "Magnús Grímsson", "nascita": 1825, "morte": 1860, "viaf": "55664541", "wikidata": "Q16421627"},
+    {"id": "hylten", "cognome": "Hyltén-Cavallius", "nome": "Gunnar Olof Hyltén-Cavallius", "nascita": 1818, "morte": 1889, "viaf": "56973019", "wikidata": "Q3120877"},
+    {"id": "stephens", "cognome": "Stephens", "nome": "George Stephens", "nascita": 1813, "morte": 1895, "viaf": "37050512", "wikidata": "Q3353704"},
+    {"id": "bodker", "cognome": "Bødker", "nome": "Cecil Bødker", "nascita": 1927, "morte": 2020, "viaf": "24616090", "wikidata": "Q93714"},
+    {"id": "jansson", "cognome": "Jansson", "nome": "Tove Jansson", "nascita": 1914, "morte": 2001, "viaf": "111533709", "wikidata": "Q102071"},
+    {"id": "jonsson", "cognome": "Jónsson", "nome": "Stefán Jónsson", "nascita": 1905, "morte": 1966, "viaf": "172248338", "wikidata": "Q9345592"},
+    {"id": "gaarder", "cognome": "Gaarder", "nome": "Jostein Gaarder", "nascita": 1952, "morte": null, "viaf": "54345762", "wikidata": "Q185548"},
+    {"id": "lagerlof", "cognome": "Lagerlöf", "nome": "Selma Lagerlöf", "nascita": 1858, "morte": 1940, "viaf": "7392519", "wikidata": "Q44519"},
+    {"id": "fitinghoff", "cognome": "Fitinghoff", "nome": "Laura Fitinghoff", "nascita": 1848, "morte": 1908, "viaf": "44350413", "wikidata": "Q4948162"},
+    {"id": "lindgren", "cognome": "Lindgren", "nome": "Astrid Lindgren", "nascita": 1907, "morte": 2002, "viaf": "97119817", "wikidata": "Q55767"}
+  ],
+  "tipologie": [
+    {"id": "raccolta-popolare", "label": "Raccolte di fiabe popolari"},
+    {"id": "fiaba-autore", "label": "Fiabe d'autore"},
+    {"id": "romanzo-avventura-formazione", "label": "Romanzi d'avventura e di formazione"},
+    {"id": "romanzo-fantastico", "label": "Romanzi fantastici"}
+  ],
+  "vocabolario": {
+    "geografico": {
+      "label": "Asse geografico / ontologico",
+      "esclusivo": false,
+      "termini": [
+        {"id": "reale", "label": "Reale", "def": "Il viaggio si svolge in uno spazio geografico reale e riconoscibile, anche in presenza di elementi fantastici."},
+        {"id": "fantastico", "label": "Fantastico", "def": "Il viaggio si svolge in uno spazio immaginario o in un altro mondo, o è dominato dal meraviglioso."}
+      ]
+    },
+    "funzionale": {
+      "label": "Asse funzionale / scopo",
+      "esclusivo": false,
+      "termini": [
+        {"id": "formazione", "label": "Formazione", "def": "Il viaggio fa maturare il protagonista."},
+        {"id": "fuga", "label": "Fuga", "def": "Si viaggia per allontanarsi da una situazione o da un pericolo."},
+        {"id": "ricerca", "label": "Ricerca", "def": "Si viaggia per trovare una persona, un luogo o un oggetto."},
+        {"id": "prova", "label": "Prova", "def": "Il viaggio è una sequenza di ostacoli da superare."},
+        {"id": "scoperta", "label": "Scoperta", "def": "Il viaggio fa conoscere luoghi, popoli e saperi."},
+        {"id": "sopravvivenza", "label": "Sopravvivenza", "def": "Il viaggio è una lotta per resistere a condizioni avverse."}
+      ]
+    },
+    "tematico": {
+      "label": "Asse tematico / dinamica",
+      "esclusivo": false,
+      "termini": [
+        {"id": "natura-paesaggio", "label": "Natura e paesaggio", "def": "Il paesaggio e gli elementi naturali (foreste, mari, neve, animali) sono parte attiva del viaggio, non solo lo sfondo."},
+        {"id": "trasformazione", "label": "Trasformazione", "def": "Il viaggio cambia chi lo compie, nel corpo, nella condizione o nel modo di vedersi e di vedere il mondo."},
+        {"id": "amicizia-solidarieta", "label": "Amicizia e solidarietà", "def": "Il viaggio è reso possibile o sostenuto da legami con compagni, amici e aiutanti incontrati lungo la strada."},
+        {"id": "perdita-separazione", "label": "Perdita e separazione", "def": "Il viaggio nasce da un distacco o da una perdita (di una persona, della casa, di un mondo) o la mette al centro."},
+        {"id": "identita-appartenenza", "label": "Identità e appartenenza", "def": "Il viaggio porta il protagonista a chiedersi chi è e a quale luogo, gruppo o famiglia appartiene."},
+        {"id": "liberta-autonomia", "label": "Libertà e autonomia", "def": "Il viaggio è una conquista di indipendenza dalle regole, dalle figure adulte o dalla condizione di partenza."},
+        {"id": "famiglia-casa", "label": "Famiglia e casa", "def": "Il viaggio parte da una casa o da una famiglia, la cerca o la ricostruisce, e ne ridefinisce il significato."}
+      ]
+    }
+  },
+  "items": [
+    {"id": "snedronningen", "titolo": "Snedronningen", "titolo_it": "La regina delle nevi", "raccolta": "Nye Eventyr (Eventyr)", "autori": ["andersen"], "paese": "DK", "anno": 1844, "secolo": 19, "tipologia": "fiaba-autore", "geografico": ["fantastico"], "funzionale": ["ricerca", "prova"], "tematico": ["amicizia-solidarieta", "perdita-separazione", "trasformazione"], "sintesi": "Gerda attraversa un paesaggio del Nord, tra giardini incantati e brigate di briganti, per ritrovare Kai, rapito dal gelo della Regina delle nevi.", "scheda": "snedronningen.html"},
+    {"id": "grimme-aelling", "titolo": "Den grimme ælling", "titolo_it": "Il brutto anatroccolo", "raccolta": "Eventyr", "autori": ["andersen"], "paese": "DK", "anno": 1843, "secolo": 19, "tipologia": "fiaba-autore", "geografico": ["reale"], "funzionale": ["fuga", "formazione", "sopravvivenza"], "tematico": ["trasformazione", "identita-appartenenza", "natura-paesaggio"], "sintesi": "Respinto da tutti, il piccolo cigno vaga per stagioni e paesaggi della campagna danese prima di riconoscersi.", "scheda": null},
+    {"id": "sampo-lappelill", "titolo": "Sampo Lappelill", "titolo_it": "Il piccolo Sampo di Lapponia", "raccolta": "Läsning för barn", "autori": ["topelius"], "paese": "FI", "anno": 1860, "secolo": 19, "tipologia": "fiaba-autore", "geografico": ["reale"], "funzionale": ["prova", "sopravvivenza"], "tematico": ["natura-paesaggio", "famiglia-casa"], "sintesi": "Un bambino lappone si addentra nella foresta e nel paesaggio artico, tra pericoli e incontri con la natura.", "scheda": null},
+    {"id": "ostenfor-sol", "titolo": "Østenfor sol og vestenfor måne", "titolo_it": "A est del sole e a ovest della luna", "raccolta": "Norske Folkeeventyr", "autori": ["asbjornsen", "moe"], "paese": "NO", "anno": 1843, "secolo": 19, "tipologia": "raccolta-popolare", "geografico": ["fantastico"], "funzionale": ["ricerca", "prova"], "tematico": ["perdita-separazione", "trasformazione", "amicizia-solidarieta"], "sintesi": "Una ragazza cerca il principe trasformato in orso, spostandosi sui venti fino al castello oltre sole e luna.", "scheda": null},
+    {"id": "vi-born", "titolo": "Vi børn", "titolo_it": "Noi bambini", "raccolta": "Serie di Inger Johanna", "autori": ["zwilgmeyer"], "paese": "NO", "anno": 1890, "secolo": 19, "tipologia": "romanzo-avventura-formazione", "geografico": ["reale"], "funzionale": ["formazione", "scoperta"], "tematico": ["famiglia-casa", "liberta-autonomia"], "sintesi": "Primo libro con protagonista Inger Johanna: la crescita di una ragazzina norvegese tra casa, viaggi e scoperta del mondo.", "scheda": null},
+    {"id": "linheidur-laufey", "titolo": "Sagan af Línheiði og Laufeyju", "titolo_it": "La storia di Línheiður e Laufey", "raccolta": "Íslenzk Æfintýri", "autori": ["arnason", "grimsson"], "paese": "IS", "anno": 1852, "secolo": 19, "tipologia": "raccolta-popolare", "geografico": ["fantastico"], "funzionale": ["ricerca", "prova"], "tematico": ["perdita-separazione", "trasformazione"], "sintesi": "Fiaba islandese di ricerca e prova in uno spazio meraviglioso, dalla tradizione orale raccolta nell'Ottocento.", "scheda": null},
+    {"id": "skona-slottet", "titolo": "Den sköna Slottet östen om Solen och norden om Jorden", "titolo_it": "Il bel castello a est del sole e a nord della terra", "raccolta": "Svenska folk-sagor och äfventyr", "autori": ["hylten", "stephens"], "paese": "SE", "anno": 1844, "secolo": 19, "tipologia": "raccolta-popolare", "geografico": ["fantastico"], "funzionale": ["ricerca", "prova"], "tematico": ["perdita-separazione", "trasformazione"], "sintesi": "Variante svedese del tipo fiabesco della sposa che cerca l'amato oltre i confini del mondo conosciuto.", "scheda": null},
+    {"id": "silas", "titolo": "Silas og den sorte hoppe", "titolo_it": "Silas e la cavalla nera", "raccolta": "Serie di Silas", "autori": ["bodker"], "paese": "DK", "anno": 1967, "secolo": 20, "tipologia": "romanzo-avventura-formazione", "geografico": ["reale"], "funzionale": ["fuga", "formazione"], "tematico": ["liberta-autonomia", "natura-paesaggio"], "sintesi": "Un ragazzo lascia la propria condizione per seguire una via di autonomia, insieme a una cavalla.", "scheda": null},
+    {"id": "smatrollen", "titolo": "Småtrollen och den stora översvämningen", "titolo_it": "Il piccolo troll e la grande pioggia", "raccolta": "Serie dei Mumin", "autori": ["jansson"], "paese": "FI", "anno": 1945, "secolo": 20, "tipologia": "romanzo-fantastico", "geografico": ["fantastico"], "funzionale": ["sopravvivenza", "scoperta"], "tematico": ["famiglia-casa", "natura-paesaggio", "amicizia-solidarieta"], "sintesi": "Mumin e sua madre attraversano un mondo sconvolto dall'acqua per ritrovare il padre e una casa.", "scheda": null},
+    {"id": "hjalti-litli", "titolo": "Hjalti litli", "titolo_it": "Il piccolo Hjalti", "raccolta": "", "autori": ["jonsson"], "paese": "IS", "anno": 1948, "secolo": 20, "tipologia": "romanzo-avventura-formazione", "geografico": ["reale"], "funzionale": ["sopravvivenza", "formazione"], "tematico": ["perdita-separazione", "famiglia-casa", "natura-paesaggio"], "sintesi": "Un bambino islandese cresce spostandosi da una fattoria all'altra in un paesaggio rurale duro.", "scheda": null},
+    {"id": "kabalmysteriet", "titolo": "Kabalmysteriet", "titolo_it": "Il mistero del solitario", "raccolta": "", "autori": ["gaarder"], "paese": "NO", "anno": 1990, "secolo": 20, "tipologia": "romanzo-fantastico", "geografico": ["reale", "fantastico"], "funzionale": ["ricerca", "scoperta"], "tematico": ["famiglia-casa", "identita-appartenenza"], "sintesi": "Un viaggio in auto dalla Norvegia alla Grecia, in cerca della madre, intrecciato a un'isola di carte.", "scheda": null},
+    {"id": "nils", "titolo": "Nils Holgerssons underbara resa genom Sverige", "titolo_it": "Il viaggio meraviglioso di Nils Holgersson attraverso la Svezia", "raccolta": "", "autori": ["lagerlof"], "paese": "SE", "anno": 1906, "secolo": 20, "tipologia": "romanzo-avventura-formazione", "geografico": ["reale"], "funzionale": ["formazione", "scoperta"], "tematico": ["natura-paesaggio", "trasformazione", "identita-appartenenza"], "sintesi": "Rimpicciolito da una creatura magica, Nils vola in groppa a un'oca dalla Scania alla Lapponia e impara a conoscere la Svezia e a cambiare.", "scheda": "nils-holgersson.html"},
+    {"id": "frostmofjallet", "titolo": "Barnen ifrån Frostmofjället", "titolo_it": "I ragazzi di Frostmofjället", "raccolta": "", "autori": ["fitinghoff"], "paese": "SE", "anno": 1907, "secolo": 20, "tipologia": "romanzo-avventura-formazione", "geografico": ["reale"], "funzionale": ["sopravvivenza", "prova"], "tematico": ["famiglia-casa", "perdita-separazione", "natura-paesaggio"], "sintesi": "Dei bambini rimasti orfani attraversano a piedi la Svezia settentrionale in cerca di un posto in cui vivere.", "scheda": null},
+    {"id": "lejonhjarta", "titolo": "Bröderna Lejonhjärta", "titolo_it": "I fratelli Cuordileone", "raccolta": "", "autori": ["lindgren"], "paese": "SE", "anno": 1973, "secolo": 20, "tipologia": "romanzo-fantastico", "geografico": ["fantastico"], "funzionale": ["fuga", "prova"], "tematico": ["perdita-separazione", "amicizia-solidarieta", "liberta-autonomia"], "sintesi": "Dopo la morte, due fratelli proseguono in un altro mondo, Nangijala, una lotta per la libertà.", "scheda": null},
+    {"id": "ronja", "titolo": "Ronja rövardotter", "titolo_it": "Ronja figlia di brigante", "raccolta": "", "autori": ["lindgren"], "paese": "SE", "anno": 1981, "secolo": 20, "tipologia": "romanzo-fantastico", "geografico": ["fantastico"], "funzionale": ["fuga", "formazione"], "tematico": ["liberta-autonomia", "amicizia-solidarieta", "natura-paesaggio"], "sintesi": "Ronja esce dal castello paterno e scopre la foresta, l'amicizia con Birk e la propria autonomia.", "scheda": null},
+    {"id": "rasmus", "titolo": "Rasmus på luffen", "titolo_it": "Rasmus il vagabondo", "raccolta": "", "autori": ["lindgren"], "paese": "SE", "anno": 1956, "secolo": 20, "tipologia": "romanzo-avventura-formazione", "geografico": ["reale"], "funzionale": ["ricerca", "scoperta"], "tematico": ["amicizia-solidarieta", "liberta-autonomia", "famiglia-casa"], "sintesi": "Un orfano fugge dall'orfanotrofio e vaga per le strade della Svezia in cerca di una famiglia.", "scheda": null}
+  ]
+}

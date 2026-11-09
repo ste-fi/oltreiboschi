@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="sv">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Nils Holgerssons underbara resa genom Sverige</title>
+        <title type="sub">LV. Avsked från vildgässen</title>
+        <author>Selma Lagerlöf</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Marcatura TEI del testo svedese, tratto dall'edizione digitale di Project Runeberg.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Selma Lagerlöf</author>,
+          <title>Nils Holgerssons underbara resa genom Sverige</title>,
+          capitolo LV, <title level="a">Avsked från vildgässen</title>.
+          Edizione digitale: <publisher>Project Runeberg</publisher>,
+          <ptr target="https://runeberg.org/nilsholg/"/>.
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+<encodingDesc> <projectDesc> <p>Marcatura TEI del capitolo LV, «Avsked från vildgässen», di <title>Nils Holgerssons underbara resa genom Sverige</title> di Selma Lagerlöf. Il testo svedese, tratto dall'edizione digitale di Project Runeberg, è marcato nei suoi elementi narrativi (personaggi, luoghi, fenomeni atmosferici, elementi magici, discorsi e pensieri). La traduzione italiana è affiancata al testo svedese e non è oggetto di marcatura.</p> </projectDesc> <editorialDecl> <interpretation> <p>Sono marcati: titolo e paragrafi; discorsi diretti e pensieri; nomi dei personaggi, distinguendo umani e animali; luoghi, reali o interni alla storia; elementi atmosferici; elementi magici.</p> <p>Non sono marcati: orari e parti del giorno (es. <foreign xml:lang="sv">morgon</foreign>, <foreign xml:lang="sv">dagen förut</foreign>); la lingua degli uccelli e i richiami (<foreign xml:lang="sv">locktoner</foreign>), né come elemento magico né altrimenti; i pensieri resi in discorso indiretto libero.</p> </interpretation> <quotation> <p>Discorsi e pensieri sono marcati con <gi>said</gi> senza le virgolette del testo e senza attribuzione del parlante. L'attributo <att>aloud</att> distingue il discorso pronunciato ad alta voce (<val>true</val>) dal pensiero (<val>false</val>); <att>type</att><val>implied</val> indica un discorso solo suggerito dal comportamento dei personaggi.</p> </quotation> <segmentation> <p>Il testo è diviso in paragrafi (<gi>p</gi>) secondo l'edizione di riferimento. La traduzione italiana di ciascun paragrafo è inserita al suo interno come <gi>note</gi> con <att>type</att><val>translation</val> e <att>xml:lang</att><val>it</val>; il titolo tradotto è un secondo <gi>head</gi> con gli stessi attributi.</p> </segmentation> <normalization> <p>L'ortografia svedese originale (es. forme verbali plurali come <foreign xml:lang="sv">kommo</foreign>, <foreign xml:lang="sv">foro</foreign>) è mantenuta senza modernizzazione.</p> </normalization> </editorialDecl> <tagsDecl> <namespace name="http://www.tei-c.org/ns/1.0"> <tagUsage gi="persName">Nomi dei personaggi. <att>type</att><val>human</val> per i personaggi umani (Nils/Pojken/Tummetott), <val>animal</val> per Mårten, Akka e le altre oche. <att>ref</att> rimanda all'<att>xml:id</att> della <gi>listPerson</gi> nell'header; tutte le occorrenze di <foreign xml:lang="sv">Pojken</foreign> e <foreign xml:lang="sv">Tummetott</foreign> puntano a <val>#Nils</val>.</tagUsage> <tagUsage gi="rs">Espressioni di riferimento a categorie o gruppi, non a individui nominati. <att>type</att><val>animal</val> per oche selvatiche, stormi, uccelli in generale e formazioni di volo; <val>weather</val> per elementi atmosferici (tempo, cielo, aria, mare calmo); <val>magic</val> per elementi magici (<foreign xml:lang="sv">tomte</foreign>, <foreign xml:lang="sv">förtrollningen</foreign>).</tagUsage> <tagUsage gi="placeName">Luoghi con nome proprio. <att>type</att><val>real</val> per luoghi reali (Smyge, Skåne); <val>story</val> per luoghi interni alla storia (es. il recinto di Mårten).</tagUsage> <tagUsage gi="geogName">Elementi del paesaggio, in particolare costa, spiaggia, mare e relative parti.</tagUsage> <tagUsage gi="said">Discorsi e pensieri. <att>aloud</att><val>true</val> per il parlato, <val>false</val> per il pensiero; <att>type</att><val>implied</val> per il discorso solo suggerito.</tagUsage> <tagUsage gi="note">Usato per la traduzione italiana a fronte (<att>type</att><val>translation</val>).</tagUsage> <tagUsage gi="head">Titolo del capitolo in svedese e, con <att>type</att><val>translation</val>, in italiano.</tagUsage> </namespace> </tagsDecl> </encodingDesc> 
+    <profileDesc>
+      <langUsage>
+        <language ident="sv">svedese</language>
+        <language ident="it">italiano (traduzione a fronte)</language>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person xml:id="Nils">
+            <persName>Nils Holgersson</persName>
+            <persName>Pojken</persName>
+            <persName>Tummetott</persName>
+          </person>
+          <person xml:id="Marten">
+            <persName>Mårten gåskarl</persName>
+            <persName>den store vite</persName>
+          </person>
+          <person xml:id="Akka">
+            <persName>Akka</persName>
+          </person>
+          <person xml:id="Yksi">
+            <persName>Yksi</persName>
+          </person>
+          <person xml:id="Kaksi">
+            <persName>Kaksi</persName>
+          </person>
+          <person xml:id="Kolme">
+            <persName>Kolme</persName>
+          </person>
+          <person xml:id="Nelja">
+            <persName>Neljä</persName>
+          </person>
+          <person xml:id="Viisi">
+            <persName>Viisi</persName>
+          </person>
+          <person xml:id="Kuusi">
+            <persName>Kuusi</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="chapter" n="LV">
+        <head>Avsked från vildgässen</head>
+        <head xml:lang="it" type="translation">Congedo dalle oche selvatiche</head>
+
+        <p>
+          <persName type="human" ref="#Nils">Pojken</persName> steg upp före dager nästan morgon och vandrade neråt <geogName>kusten</geogName>. Han stod på <geogName>stranden</geogName> ett stycke öster om <placeName type="real">Smyge fiskeläge</placeName>, innan det ännu var riktigt ljust. Han var alldeles ensam. Han hade varit inne i <placeName type="story">kätten</placeName> hos <persName type="animal" ref="#Marten">Mårten gåskarl</persName> och försökt väcka honom. Men <persName type="animal" ref="#Marten">den store vite</persName> hade inte velat ge sig av hemifrån. Han hade inte sagt ett ord, bara stuckit in huvudet under vingen och somnat om.
+          <note type="translation" xml:lang="it">Il ragazzo si alzò prima dell'alba, quasi sul far del mattino, e si incamminò verso la costa. Si fermò sulla spiaggia, un tratto a est del villaggio di pescatori di Smyge, quando non era ancora del tutto chiaro. Era completamente solo. Era stato nel recinto di Mårten il maschio delle oche e aveva cercato di svegliarlo. Ma il grande bianco non aveva voluto partire da casa. Non aveva detto una parola: aveva soltanto nascosto la testa sotto l'ala e si era riaddormentato.</note>
+        </p>
+
+        <p>
+          Det såg ut att bli en <rs type="weather">härlig och klar dag</rs>. Det var nästan lika så <rs type="weather">vackert väder</rs> som den vårdagen, då <rs type="animal">vildgässen</rs> hade kommit över till <placeName type="real">Skåne</placeName>. <geogName>Havet</geogName> bredde ut sig <rs type="weather">lugnt och orörligt</rs>. <rs type="weather">Luften var i stillhet</rs>, och <persName type="human" ref="#Nils">pojken</persName> tänkte på vilken god överresa <rs type="animal">vildgässen</rs> skulle få.
+          <note type="translation" xml:lang="it">Si preannunciava una giornata splendida e serena. Il tempo era quasi altrettanto bello di quella giornata primaverile in cui le oche selvatiche erano arrivate in Scania. Il mare si stendeva tranquillo e immobile. L'aria era calma, e il ragazzo pensava a quanto sarebbe stata agevole la traversata per le oche selvatiche.</note>
+        </p>
+
+        <p>
+          Han själv var ännu i ett slags yrsel. Än tänkte han sig som <rs type="magic">tomte</rs> och än som människa. När han såg en <geogName>stengärdsgård</geogName> utmed vägen, var han rädd att gå vidare, innan han hade övertygat sig om att det inte låg något rovdjur och lurade bakom den. Och strax därpå skrattade han åt sig själv och gladde sig åt att han var lång och stor och stark och inte behövde vara rädd för någonting.
+          <note type="translation" xml:lang="it">Lui stesso si trovava ancora in una sorta di stordimento. A volte si immaginava di essere un folletto, altre volte un essere umano. Quando vedeva un muretto di pietre lungo la strada, aveva paura di proseguire prima di essersi accertato che dietro non si nascondesse in agguato qualche animale da preda. E subito dopo rideva di se stesso e si rallegrava di essere alto, grande e forte, e di non dover avere paura di nulla.</note>
+        </p>
+
+        <p>
+          När han kom till <geogName>kusten</geogName>, ställde han sig, så stor han var, ytterst på <geogName>strandbrädden</geogName>, för att <rs type="animal">vildgässen</rs> skulle se honom. Det var en stor flyttningsdag. Det ljöd oupphörligen locktoner uppifrån luften. Han smålog för sig själv, när han tänkte på att ingen såsom han hade reda på vad det var, <rs type="animal">fåglarna</rs> ropade till varandra.
+          <note type="translation" xml:lang="it">Quando giunse alla costa, si mise in piedi, ben eretto, proprio sul margine della spiaggia, affinché le oche selvatiche potessero vederlo. Era un grande giorno di migrazione. Dall'alto del cielo giungevano senza sosta i richiami degli uccelli. Sorrise tra sé al pensiero che nessuno, come lui, sapesse che cosa si stavano gridando gli uccelli l'un l'altro.</note>
+        </p>
+
+        <p>
+          Nu kommo också <rs type="animal">vildgäss</rs> flygande. Den ena stora <rs type="animal">flocken</rs> följde den andra. <said aloud="false">Bara det inte är mina <rs type="animal">gäss</rs>, som far bort utan att säga farväl till mig!</said> tänkte han. Han ville bra gärna tala om för dem hur allt hade gått till och visa dem, att han var människa igen.
+          <note type="translation" xml:lang="it">Ed ecco che arrivarono anche le oche selvatiche. Uno stormo numeroso seguiva l'altro. «Purché non siano le mie oche ad andarsene senza salutarmi!» pensò. Avrebbe tanto desiderato raccontare loro come erano andate le cose e mostrare che era tornato a essere un essere umano.</note>
+        </p>
+
+        <p>
+          Det kom en <rs type="animal">flock</rs>, som flög raskare och skrek ljudligare än de andra, och det var något, som sade honom, att denna <rs type="animal">flocken</rs> måste det vara. Men han kunde inte känna igen den så säkert, som han skulle ha gjort dagen förut.
+          <note type="translation" xml:lang="it">Arrivò uno stormo che volava più velocemente e gridava più forte degli altri, e qualcosa gli diceva che doveva trattarsi proprio di quello. Ma non riusciva a riconoscerlo con la stessa sicurezza con cui avrebbe saputo farlo il giorno prima.</note>
+        </p>
+
+        <p>
+          <rs type="animal">Flocken</rs> saktade farten och for fram och tillbaka längs med <geogName>kusten</geogName>. Då begrep <persName type="human" ref="#Nils">pojken</persName>, att det var den rätta. Han kunde bara inte förstå varför <rs type="animal">vildgässen</rs> inte slogo ner bredvid honom. Det var då omöjligt, att de inte skulle se honom, där han stod.
+          <note type="translation" xml:lang="it">Lo stormo rallentò il volo e si spostò avanti e indietro lungo la costa. Allora il ragazzo capì che si trattava proprio dello stormo che cercava. Non riusciva soltanto a comprendere perché le oche selvatiche non scendessero a terra accanto a lui. Era impossibile che non lo vedessero, là dove si trovava!</note>
+        </p>
+
+        <p>
+          Han sökte uppge en lockton, som skulle kalla ner dem till honom. Men tänk, att tungan ville inte! Han kunde inte få fram det rätta ljudet.
+          <note type="translation" xml:lang="it">Cercò di emettere un richiamo per attirarle giù, verso di sé. Ma, pensate un po', la lingua non voleva collaborare! Non riusciva a produrre il suono giusto.</note>
+        </p>
+
+        <p>
+          Han hörde <persName type="animal" ref="#Akka">Akka</persName> ropa uppe i luften, men han förstod inte vad hon sade. <said aloud="false">Vad är detta? Har <rs type="animal">vildgässen</rs> bytt om språk?</said> undrade han.
+          <note type="translation" xml:lang="it">Sentì Akka gridare dall'alto del cielo, ma non capì che cosa stesse dicendo. «Che cosa succede? Le oche selvatiche hanno cambiato lingua?» si domandò.</note>
+        </p>
+
+        <p>
+          Han vinkade åt dem med sin luva, och han sprang utmed <geogName>stranden</geogName> och ropade: <said aloud="true">Här är jag, var är du?</said>
+          <note type="translation" xml:lang="it">Fece loro cenno con il berretto e corse lungo la spiaggia gridando: «Sono qui, dove sei?»</note>
+        </p>
+
+        <p>
+          Det såg ut, som om detta bara skulle skrämma dem. De höjde sig och foro utåt <geogName>havet</geogName>. Då förstod han äntligen! De visste inte, att han var en människa. De kände inte igen honom.
+          <note type="translation" xml:lang="it">Sembrava che tutto ciò non facesse altro che spaventarle. Si alzarono in volo e si diressero verso il mare aperto. Allora finalmente capì! Non sapevano che lui era un essere umano. Non lo riconoscevano.</note>
+        </p>
+
+        <p>
+          Och han kunde inte kalla dem till sig, därför att en människa inte kan tala <rs type="animal">fåglarnas</rs> språk. Han kunde inte tala det, och inte heller kunde han förstå det.
+          <note type="translation" xml:lang="it">E lui non poteva richiamarle a sé, perché un essere umano non è in grado di parlare la lingua degli uccelli. Non poteva parlarlo, né tantomeno comprenderlo.</note>
+        </p>
+
+        <p>
+          Fastän <persName type="human" ref="#Nils">pojken</persName> var så glad åt att vara löst ur <rs type="magic">förtrollningen</rs>, tyckte han, att det var bittert, att han på detta sättet hade blivit skild från sina goda kamrater. Han satte sig ner i <geogName>sanden</geogName> och slog händerna för ansiktet. Vad tjänade det mer till att se efter dem?
+          <note type="translation" xml:lang="it">Benché fosse così felice di essere stato liberato dall'incantesimo, gli sembrava amaro essere stato separato in quel modo dai suoi buoni compagni. Si sedette sulla sabbia e si coprì il viso con le mani. A che serviva ormai continuare a guardare nella loro direzione?</note>
+        </p>
+
+        <p>
+          Men strax därpå hörde han brus av vingar. Den gamla mor <persName type="animal" ref="#Akka">Akka</persName> hade känt det tungt att fara från <persName type="human" ref="#Nils">Tummetott</persName>, och hon hade vänt tillbaka än en gång. Och nu, då <persName type="human" ref="#Nils">pojken</persName> satt stilla, vågade hon att fara honom närmare. Plötsligt hade väl något öppnat hennes ögon för vem han var. Hon slog ner på <geogName>udden</geogName> tätt bredvid honom.
+          <note type="translation" xml:lang="it">Ma subito dopo udì il fruscio delle ali. La vecchia mamma Akka aveva provato una grande tristezza all'idea di allontanarsi da Tummetott e aveva fatto ritorno ancora una volta. E ora, vedendo che il ragazzo se ne stava immobile, osò avvicinarsi di più a lui. All'improvviso, qualcosa le aveva forse aperto gli occhi su chi egli fosse davvero. Si posò sul promontorio, proprio accanto a lui.</note>
+        </p>
+
+        <p>
+          <persName type="human" ref="#Nils">Pojken</persName> ropade till av glädje och tog den gamla <persName type="animal" ref="#Akka">Akka</persName> i sin famn. De andra <rs type="animal">vildgässen</rs> ströko näbbarna mot honom och trängdes omkring honom. De kacklade och pratade och sade honom all sin hjärtliga lyckönskan, och han talade också till dem och tackade dem för den underbara resan, som han hade fått göra i deras sällskap.
+          <note type="translation" xml:lang="it">Il ragazzo gridò di gioia e prese la vecchia Akka tra le braccia. Le altre oche selvatiche gli sfiorarono il corpo con il becco e si strinsero intorno a lui. Starnazzavano e chiacchieravano, esprimendogli tutte le loro più affettuose felicitazioni; e anche lui parlò loro, ringraziandole per lo straordinario viaggio che aveva potuto compiere in loro compagnia.</note>
+        </p>
+
+        <p>
+          Men på en gång blevo <rs type="animal">vildgässen</rs> underligt stilla och drogo sig bort från honom. Det var, som om de ville säga: <said aloud="false" type="implied">Ack, han är en människa! Han förstår inte oss, och vi förstår inte honom.</said>
+          <note type="translation" xml:lang="it">Ma, tutt'a un tratto, le oche selvatiche si fecero stranamente silenziose e si allontanarono da lui. Era come se volessero dire: «Ahimè, è un essere umano! Non ci capisce, e noi non capiamo lui.»</note>
+        </p>
+
+        <p>
+          Då reste sig <persName type="human" ref="#Nils">pojken</persName> och gick fram till <persName type="animal" ref="#Akka">Akka</persName>. Han smekte och klappade henne. Detsamma gjorde han med <persName type="animal" ref="#Yksi">Yksi</persName> och <persName type="animal" ref="#Kaksi">Kaksi</persName>, <persName type="animal" ref="#Kolme">Kolme</persName> och <persName type="animal" ref="#Nelja">Neljä</persName>, <persName type="animal" ref="#Viisi">Viisi</persName> och <persName type="animal" ref="#Kuusi">Kuusi</persName>, de gamla, som hade varit med från första början.
+          <note type="translation" xml:lang="it">Allora il ragazzo si alzò e si avvicinò ad Akka. La accarezzò e la vezzeggiò. Fece lo stesso con Yksi e Kaksi, Kolme e Neljä, Viisi e Kuusi, i vecchi compagni che erano stati con lui fin dall'inizio.</note>
+        </p>
+
+        <p>
+          Därpå gick han över <geogName>stranden</geogName> mot land, för han visste ju, att <rs type="animal">fåglarnas</rs> sorg aldrig varade längre, och han ville skiljas från dem, medan de ännu voro bedrövade över att de hade mistat honom.
+          <note type="translation" xml:lang="it">Poi attraversò la spiaggia dirigendosi verso terra, perché sapeva bene che il dolore degli uccelli non durava mai a lungo, e voleva separarsi da loro mentre erano ancora addolorati per averlo perduto.</note>
+        </p>
+
+        <p>
+          När han hade kommit uppför <geogName>strandvallen</geogName>, vände han sig om och betraktade de många <rs type="animal">fågelflockarna</rs>, som foro ut över <geogName>havet</geogName>. Alla skreko fram sina locktoner, endast en <rs type="animal">vildgåsflock</rs> for tyst framåt, så länge som han kunde följa den med blickarna.
+          <note type="translation" xml:lang="it">Quando ebbe risalito il terrapieno della spiaggia, si voltò e contemplò i numerosi stormi di uccelli che si allontanavano sul mare. Tutti lanciavano i loro richiami, soltanto uno stormo di oche selvatiche procedeva in silenzio, finché i suoi occhi riuscirono a seguirlo.</note>
+        </p>
+
+        <p>
+          Men <rs type="animal">fylkingen</rs> var jämn och välordnad och farten god, och vingslagen starka och kraftiga. Och <persName type="human" ref="#Nils">pojken</persName> kände en sådan längtan efter de bortflygande, att han nära nog önskade att återigen vara <persName type="human" ref="#Nils">Tummetott</persName>, som kunde rida över land och <geogName>hav</geogName> med en <rs type="animal">vildgåsflock</rs>.
+          <note type="translation" xml:lang="it">Ma la formazione era compatta e ben ordinata, il volo regolare, e i battiti delle ali forti e vigorosi. E il ragazzo sentì una nostalgia così intensa per quegli uccelli in partenza che quasi desiderò di tornare a essere Tummetott, capace di cavalcare sopra la terra e il mare in groppa a uno stormo di oche selvatiche.</note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

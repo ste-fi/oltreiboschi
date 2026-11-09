@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+   <title>Oltre i boschi e la neve. Il viaggio come momento di crescita tra realtà e fantasia nella letteratura per l'infanzia scandinava del XIX e XX secolo.</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Sito dedicato alla letteratura per l'infanzia del Nord Europa" />
+  <meta name="keywords" content="fiabe, romanzi, letteratura, infanzia, viaggio, realtà, fantasia" />
+  <meta name="author" content="Stefania Seghedoni" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Metadati Dublin Core del sito -->
+  <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+  <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+  <meta name="DC.title" content="Oltre i boschi e la neve: il viaggio come momento di crescita tra realtà e fantasia nella letteratura per l'infanzia scandinava (XIX-XX secolo)">
+  <meta name="DC.creator" content="Stefania Seghedoni">
+  <meta name="DC.subject" content="letteratura per l'infanzia; Scandinavia; viaggio; fiaba; realtà e fantasia">
+  <meta name="DC.language" content="it">
+  <meta name="DC.rights" content="CC BY 4.0">
+  <meta name="DCTERMS.spatial" content="Danimarca; Norvegia; Svezia; Finlandia; Islanda">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="index">
+
+<div class="top-banner">
+  <img src="img/banner.jpg" alt="" width="1984" height="289">
+</div>
+
+<nav class="navbar">
+  <div class="container">
+    <a class="brand" href="index.html">Oltre i boschi e la neve</a>
+    <button class="navbar-toggler" type="button">☰</button>
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="progetto.html">Progetto</a></li>
+      <li><a href="catalogo.html">Catalogo</a></li>
+      <li><a href="dati.html">Dati</a></li>
+      <li class="dropdown">
+        <button type="button" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Contatti</button>
+        <ul class="dropdown-menu">
+          <li><a href="#">Segnala un problema</a></li>
+          <li><a href="#">Richiedi informazioni</a></li>
+          <li><a href="#">Contatti</a></li>
+        </ul>
+      </li>
+      <li>
+        <form class="nav-search" action="catalogo.html" method="get">
+          <input type="search" id="nav-q" name="q" placeholder="Cerca nel sito…" autocomplete="off">
+          <button type="submit">Cerca</button>
+        </form>
+      </li>
+      <li>
+        <label class="switch"><input type="checkbox" id="theme-switch"><span class="track"></span><span>Tema scuro</span></label>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <h1>Oltre i boschi e la neve</h1>
+  <p>Il viaggio come momento di crescita tra realtà e fantasia nella letteratura per l'infanzia scandinava del XIX e XX secolo.</p>
+  <a class="btn" href="catalogo.html">INIZIA IL VIAGGIO</a>
+</header>
+
+<main>
+  <section class="section" id="architettura">
+    <div class="container">
+      <h2>Architettura del sito</h2>
+      <p class="lead">Una collezione di sedici opere provenienti da cinque paesi del Nord Europa di lingua e cultura scandinave, da esplorare per autore, titolo, Paese di origine, arco cronologico e percorsi tematici.</p>
+      <div class="grid">
+        <a class="card tile" href="progetto.html">
+          <h3>Progetto</h3>
+          <p>Idea, obiettivo di ricerca e metodo.</p>
+        </a>
+        <a class="card tile" href="catalogo.html">
+          <h3>Catalogo</h3>
+          <p>Le opere con filtri per autore, titolo, luogo di origine, anno di pubblicazione e tipologia di viaggio.</p>
+        </a>
+        <a class="card tile" href="dati.html">
+          <h3>Dati</h3>
+          <p>Tabelle strutturate con la riconciliazione dei record di autorità.</p>
+        </a>
+        <a class="card tile" href="#mappa">
+          <h3>Mappa</h3>
+          <p>Le opere raggruppate per paese d'origine.</p>
+        </a>
+        <a class="card tile" href="#linea-del-tempo">
+          <h3>Linea del tempo</h3>
+          <p>Le opere in ordine cronologico, dall'Ottocento al Novecento.</p>
+        </a>
+        <a class="card tile" href="percorsi.html">
+          <h3>Percorsi tematici</h3>
+          <p>Itinerari tra le opere secondo tre assi del viaggio: geografico, funzionale, tematico .</p>
+        </a>
+        <a class="card tile" href="#">
+          <h3>Risorse esterne</h3>
+          <p>Collegamenti tipizzati a edizioni digitali, archivi e studi.</p>
+        </a>
+        <a class="card tile" href="bibliografia.html">
+          <h3>Bibliografia</h3>
+          <p>Riferimenti bibliografici e sitografici.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="mappa">
+    <div class="container">
+      <h2>Mappa</h2>
+      <p class="lead">Ogni cerchio indica quante opere della collezione provengono da ciascuno dei Paesi oggetto di studio.
+      Cliccando si apre il catalogo già filtrato.</p>
+      <div class="filters-inline">
+        <div class="form-check"><input type="checkbox" id="sec19" data-secolo="19" checked><label for="sec19">Ottocento</label></div>
+        <div class="form-check"><input type="checkbox" id="sec20" data-secolo="20" checked><label for="sec20">Novecento</label></div>
+      </div>
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <section class="section" id="linea-del-tempo">
+    <div class="container">
+      <h2>Linea del tempo</h2>
+      <p class="lead">Le opere ordinate cronologicamente a partire dal 1843 fino al 1990.<br />
+      Ogni opera rimanda alla relativa scheda presente nel catalogo.</p>
+      <div class="legend"><span><i style="background:var(--o19)"></i>Ottocento</span><span><i style="background:var(--o20)"></i>Novecento</span></div>
+      <ol class="timeline" id="timeline"></ol>
+    </div>
+  </section>
+
+  <section class="section" id="guida">
+    <div class="container">
+      <h2>Come orientarsi</h2>
+      <div class="accordion-stack">
+        <div class="accordion-item">
+          <button type="button" class="accordion-button"><span>Che cosa raccoglie il progetto?</span></button>
+          <div class="accordion-panel"><p>Sedici opere per l'infanzia tra le più significative di Danimarca, Norvegia, Svezia, Finlandia e Islanda, prodotte nell'corso del XIX e del XX secolo: raccolte di fiabe popolari, fiabe d'autore, romanzi d'avventura e di formazione, romanzi fantastici.</p></div>
+        </div>
+        <div class="accordion-item">
+          <button type="button" class="accordion-button"><span>Come si classificano i viaggi?</span></button>
+          <div class="accordion-panel"><p>Ogni opera è descritta su tre assi: geografico (viaggio reale, fantastico o entrambi), funzionale (scopo del viaggio) e tematico (dinamica del viaggio).</p></div>
+        </div>
+        <div class="accordion-item">
+          <button type="button" class="accordion-button"><span>Che cosa significano i colori?</span></button>
+          <div class="accordion-panel"><p>Il verde-azzurro indica le opere dell'Ottocento, l'arancio quelle del Novecento; tale indicazione vale per i cerchi della mappa, per i pallini della linea del tempo e per le etichette delle card del catalogo.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <ul class="footer-links">
+      <li><a href="crediti.html">Crediti</a></li>
+      <li>Licenza: <a href="https://creativecommons.org/licenses/by/4.0/deed.it" target="_blank">CC BY 4.0</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> · <a href="https://leafletjs.com" target="_blank">Leaflet</a></li>
+      <li><a href="metadati.html">Metadati del sito</a></li>
+    </ul>
+    <p class="copyright">© Copyright (c) novembre 2026 by /FLdS Litterature Centre - Modena.</p>
+  </div>
+</footer>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

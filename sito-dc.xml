@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/">
+  <rdf:Description rdf:about="index.html">
+    <dc:title xml:lang="it">Oltre i boschi e la neve: il viaggio come momento di crescita tra realtà e fantasia nella letteratura per l'infanzia scandinava (XIX-XX secolo)</dc:title>
+    <dc:creator>Seghedoni, Stefania</dc:creator>
+    <dc:contributor>Tomasi, Francesca</dc:contributor>
+    <dc:subject xml:lang="it">letteratura per l'infanzia</dc:subject>
+    <dc:subject xml:lang="it">Scandinavia</dc:subject>
+    <dc:subject xml:lang="it">viaggio</dc:subject>
+    <dc:subject xml:lang="it">fiaba</dc:subject>
+    <dc:subject xml:lang="it">realtà e fantasia</dc:subject>
+    <dc:description xml:lang="it">Collezione digitale di sedici opere della letteratura per l'infanzia di Danimarca, Norvegia, Svezia, Finlandia e Islanda (1843-1990), organizzata secondo una tipologia del viaggio su tre assi.</dc:description>
+    <dc:publisher>Università degli Studi di Bologna · Insegnamento di Digital Humanities</dc:publisher>
+    <dc:date>2026-11</dc:date>
+    <dc:type>Collection</dc:type>
+    <dc:format>text/html</dc:format>
+    <dc:language>it</dc:language>
+    <dc:rights>CC BY 4.0</dc:rights>
+    <dc:identifier>index.html</dc:identifier>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:spatial>Danimarca; Norvegia; Svezia; Finlandia; Islanda</dcterms:spatial>
+    <dcterms:hasPart rdf:resource="nils-holgersson.html"/>
+    <dcterms:hasPart rdf:resource="snedronningen.html"/>
+  </rdf:Description>
+</rdf:RDF>

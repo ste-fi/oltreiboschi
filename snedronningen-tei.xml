@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="da">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="da">Snedronningen</title>
+        <title type="alt" xml:lang="it">La regina delle nevi - Estratto</title>
+        <author>
+          <persName ref="https://viaf.org/viaf/4925902 https://www.wikidata.org/wiki/Q5673">Hans Christian Andersen</persName>
+        </author>
+        <respStmt>
+          <resp>Codifica TEI e riconciliazione delle authority</resp>
+          <name>Stefania Seghedoni</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Progetto «Oltre i boschi e la neve» · corso di Digital Humanities</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">Codifica sotto CC BY 4.0; testo originale in pubblico dominio.</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Testo tratto da Hans Christian Andersen, Eventyr.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>
+        Om aftnen da den lille <persName>Kay</persName> var hjemme og halv afklædt, krøb han op på stolen ved vinduet og tittede ud af det lille hul; et par <name type="weather">snefnug</name> faldt derude, og en af disse, den allerstørste, blev liggende på kanten af den ene blomsterkasse; <name type="weather">snefnugget</name> voksede mere og mere, den blev til sidst til et helt <persName type="magic" subtype="supernatural">fruentimmer</persName>, klædt i de fineste, hvide flor, der var som sammensat af millioner stjerneagtige <name type="weather">fnug</name>. <persName type="magic" subtype="supernatural">Hun</persName> var så smuk og fin, men af <name type="magic">is</name>, den blændende, blinkende <name type="magic">is</name>, dog var <persName type="magic" subtype="supernatural">hun</persName> levende; øjnene stirrede som to klare stjerner, men der var ingen ro eller hvile i dem. <persName type="magic" subtype="supernatural">Hun</persName> nikkede til vinduet og vinkede med hånden. Den lille dreng (<persName>Kay</persName>) blev forskrækket og sprang ned af stolen, da var det, som der udenfor fløj en stor <name type="animal">fugl</name> forbi vinduet.
+      </p>
+      <p>
+        Næste dag blev det klar <name type="weather">frost</name>, - og så kom foråret, <name type="weather">solen</name> skinnede, det grønne pippede frem, <name type="animal">svalerne</name> byggede rede, vinduerne kom op, og de små børn sad igen i deres lille have højt oppe i tagrenden over alle etagerne.
+      </p>
+      <p>
+        <name type="flower">Roserne</name> blomstrede den sommer så mageløst; den lille pige havde lært en salme, og i den stod der om <name type="flower">roser</name>, og ved de <name type="flower">roser</name> tænkte hun på sine egne; og hun sang den for den lille dreng, og han sang den med:
+      </p>
+      <quote>
+        "<name type="flower">Roserne</name> vokser i dale,<br/>
+        der får vi barn <persName>Jesus</persName> i tale!"
+      </quote>
+      <p>
+        Og de små holdt hinanden i hænderne, kyssede <name type="flower">roserne</name> og så ind i <persName>Guds</persName> klare <name type="weather">solskin</name> og talte til det, som om <persName>Jesusbarnet</persName> var der. Hvor det var dejlige sommerdage, hvor det var velsignet at være ude ved de friske <name type="flower">rosentræer</name>, der aldrig syntes at ville holde op med at blomstre.
+      </p>
+    </body>
+  </text>
+</TEI>
